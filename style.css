@@ -1,0 +1,25 @@
+/* Presentation */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: -webkit-box;
+  display: flex;
+  margin: 0;
+}
+svg {
+  width: 100%;
+  height: 100%;
+}
+circle {
+  cursor: pointer;
+}
+#cmyk {
+  background-color: #ffffff;
+}
+/* Blend Modes */
+#cmyk circle {
+  mix-blend-mode: darken;
+}
